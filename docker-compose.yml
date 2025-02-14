@@ -9,4 +9,4 @@ services:
       context: client
       dockerfile: Dockerfile
     ports:
-      - "${PORT:-80}:80"
+      - "${NGINX_PORT:-80}:80"
